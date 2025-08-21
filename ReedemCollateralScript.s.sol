@@ -41,7 +41,7 @@ contract RedeemUSBDTest is Test {
         // Fork from Bitlayer testnet
         vm.createSelectFork(RPC_URL);
 
-        // Impersonate the user address
+        // pretend to be user
         vm.startPrank(userAddress);
 
         // Print connected addresses for verification
